@@ -53,5 +53,6 @@ class TextGenerator:
 
 if __name__ == "__main__":
     tg = TextGenerator(filename=input())
+    """Generate 10 random sentences"""
     for i in range(10):
         print(tg.get_sentence())
